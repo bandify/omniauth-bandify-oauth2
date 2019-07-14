@@ -7,7 +7,7 @@ module OmniAuth
       option :name, 'bandify_oauth2'
 
       option :client_options, {
-        site:              ENV['BANDIFY_OAUTH2_SITE'] || 'https://login.bandify.co',
+        site:              ENV['BANDIFY_OAUTH2_SITE'] || 'https://account.bandify.co',
         request_token_url: '/oauth/request_token',
         authorize_url:     '/oauth/authorize',
         token_url:         '/oauth/token',

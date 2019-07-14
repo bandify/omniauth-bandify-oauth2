@@ -11,7 +11,7 @@ describe OmniAuth::Strategies::BandifyOauth2 do
     end
 
     it 'should have correct site' do
-      expect(subject.options.client_options.site).to eq('https://login.bandify.co')
+      expect(subject.options.client_options.site).to eq('https://account.bandify.co')
     end
 
     it 'should have correct authorize url' do
