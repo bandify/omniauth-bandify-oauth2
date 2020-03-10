@@ -10,8 +10,6 @@ Gem::Specification.new do |s|
   s.summary     = %q{OmniAuth strategy for Bandify.}
   s.description = %q{OmniAuth strategy for Bandify.}
 
-  s.rubyforge_project = "omniauth-bandify-oauth2"
-
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_paths = ["lib"]
