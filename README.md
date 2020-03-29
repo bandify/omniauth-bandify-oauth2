@@ -59,3 +59,5 @@ def auth_hash
   request.env['omniauth.auth']
 end
 ```
+
+New line 1.
